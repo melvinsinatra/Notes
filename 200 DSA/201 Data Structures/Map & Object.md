@@ -8,3 +8,12 @@
 |**Prototype**|Does not have a prototype by default, so no default keys can cause collisions with user data.|Has a prototype, which means default properties (like `toString`, `hasOwnProperty`) exist and could potentially be overwritten.|
 |**Performance**|Generally better performance for frequent additions/deletions and large datasets.|Generally better performance for read-heavy operations with a fixed, small set of string-based keys.|
 |**JSON Support**|No direct built-in support for JSON serialization; requires manual conversion.|Has direct, native support for `JSON.stringify()` and `JSON.parse()`.|
+
+Map example:
+```javascript
+const myMap = new Map([
+  ["id", 1],
+  ["name", "Alice"],
+  ["role", "Admin"]
+]);
+```
