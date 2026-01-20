@@ -17,3 +17,15 @@ const myMap = new Map([
   ["role", "Admin"]
 ]);
 ```
+
+### Methods
+- has()
+- set()
+- get()
+
+### Properties
+- size
+
+### Things to Remember:
+- Can't use brackets to access a Map's value
+- 
