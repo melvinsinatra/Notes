@@ -1,6 +1,7 @@
 ## [[Time Complexity]]
 
 - O(n) + O(n) = O(2n) = O(n)
+- Helper calls like `isAlphaNumeric` and `toLowerCase` are constant time per character.
 
 ## [[Space Complexity]]
 
